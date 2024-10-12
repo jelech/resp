@@ -1,4 +1,4 @@
-<h1 align="center">Response Handler for Gin</h1>
+<h1 align="center">Fast resp for Gin</h1>
 
 <p align="center">
   <i>A response handling package for the Gin framework</i>
@@ -36,7 +36,7 @@ import (
 )
 
 func TestMain(m *testing.M) {
-	c := &gin.Context{}
+    c := &gin.Context{}
 
     // Data successfully completed without additional information
     resp.Success(c, resp.OK)
